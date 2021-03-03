@@ -14,3 +14,4 @@ print("NOT")
 print() #true
 print(not a) #false
 print(not b) #true
+## == != < > >= <=
