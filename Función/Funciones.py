@@ -11,5 +11,10 @@ numero=int(input("Ingrese numero para elevarlo al cuadrado: "))
 resultado=GetNumero()
 print("El numero elevado es : ",resultado)
 print("-------------------------------")
-Palabras("PEPE") 
+Palabras("PEPE ") 
 print("-------------------------------")
+ItemsValibles=["ropa","calzado","perfumeria"]
+def Validar(item):
+    return item in ItemsValibles
+
+print(Validar("fotos"))
