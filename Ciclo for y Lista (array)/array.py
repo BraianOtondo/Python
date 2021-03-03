@@ -12,3 +12,7 @@ print("---------------------------------------")
 print(arreglo2[-len(arreglo2)])#-4 IMprime el primer elemento
 #con el la cantidad de elementos menos se imprime el primero
 #arreglo[-4]=PRIMER ELEMENTO
+print("--------------------------------")
+listaDoble=[1,2,3,5,6]
+listaSimple=["Maria",2,False,listaDoble]
+print(listaSimple[3][1])
