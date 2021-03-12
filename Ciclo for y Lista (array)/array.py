@@ -16,3 +16,4 @@ print("--------------------------------")
 listaDoble=[1,2,3,5,6]
 listaSimple=["Maria",2,False,listaDoble]
 print(listaSimple[3][1])
+print("--------------------------------")
